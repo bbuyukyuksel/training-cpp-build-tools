@@ -1,0 +1,29 @@
+# Doxyfile template for CMake
+
+# Project settings
+PROJECT_NAME           = "@PROJECT_NAME@"
+PROJECT_NUMBER         = "@PROJECT_VERSION@"
+PROJECT_BRIEF          = "@PROJECT_BRIEF@"
+
+# Input and output
+INPUT                  = @INPUT_PATH@
+OUTPUT_DIRECTORY       = @OUTPUT_DIR@
+HTML_OUTPUT            = html
+
+# Other settings
+RECURSIVE              = @RECURSIVE@
+EXTRACT_ALL            = @EXTRACT_ALL@
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+# File patterns
+FILE_PATTERNS          = *.c \
+                         *.cc \
+                         *.cxx \
+                         *.cpp \
+                         *.c++ \
+                         *.h \
+                         *.hh \
+                         *.hxx \
+                         *.hpp \
+                         *.h++

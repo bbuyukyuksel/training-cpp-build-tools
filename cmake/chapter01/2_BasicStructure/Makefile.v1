@@ -1,0 +1,11 @@
+build:
+	g++ -c main.cc
+	g++ -c my_lib.cc
+	g++ -o main main.o my_lib.o
+
+execute:
+	./main
+
+clean:
+	rm -f *.o
+	rm -f main

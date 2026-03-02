@@ -1,0 +1,21 @@
+#pragma once
+
+#include <array>
+#include <cstdint>
+#include <string_view>
+
+// clang-format off
+static constexpr std::string_view project_name = "@PROJECT_NAME@";
+static constexpr std::string_view project_version = "@PROJECT_VERSION@";
+static constexpr std::string_view project_version_major =
+    "@PROJECT_VERSION_MAJOR@";
+static constexpr std::string_view project_version_minor =
+    "@PROJECT_VERSION_MINOR@";
+static constexpr std::string_view project_version_patch =
+    "@PROJECT_VERSION_PATCH@";
+static constexpr std::string_view project_version_tweak =
+    "@PROJECT_VERSION_TWEAK@";
+static constexpr std::string_view git_sha = "@GIT_SHA@";
+static constexpr std::array<std::string_view, @NUM_AUTHORS@> authors = {
+    "@PROJECT_AUTHORS_STR@"};
+// clang-format on

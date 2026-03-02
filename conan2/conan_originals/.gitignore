@@ -1,0 +1,11 @@
+.DS_Store
+CMakeUserPresets.json
+*/build/*
+*/test_package/build
+*conanbuild*.sh
+*conanrun*.sh
+*conanbuild*.bat
+*conanrun*.bat
+.vscode
+.venv
+lesson23/licenses

@@ -1,0 +1,13 @@
+{
+    "version": "0.5",
+    "requires": [
+        "spdlog/1.11.0#6817f665b0da46fc580a2802807475de%1767604747.761",
+        "nlohmann_json/3.11.2#1ded6ae5d200a68ac17c51d528b945e2%1700513003.368",
+        "fmt/10.0.0#5f6e33fbc0936a6287c407846ed0c445%1735899174.639",
+        "cxxopts/3.1.1#b358aff6883980b4f0915734a5c8214a%1701173290.847",
+        "catch2/3.4.0#038a6bb740f3f5d7e16f4c2a7ad48d8f%1736250262.33"
+    ],
+    "build_requires": [],
+    "python_requires": [],
+    "config_requires": []
+}
